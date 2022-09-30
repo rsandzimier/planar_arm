@@ -28,7 +28,7 @@ Run demo
 ### Demo options
 
 There are 3 demos provided: RRT demo, sinusoid demo, and circle demo. By default, `./build/demo` only runs the RRT demo. 
-Optionally use command line arguments `-rrt`, `--sinusoid`, and `--circle` to run the respective demo. For example, `./build/demo --sinusoid` 
+Optionally use command line arguments `--rrt`, `--sinusoid`, and `--circle` to run the respective demo. For example, `./build/demo --sinusoid` 
 to run the sinusoid demo.
 
 ### RRT Demo
@@ -43,7 +43,7 @@ Moves each joint of a planar arm as a sinusoid and displays an animation of the 
 ### Circle Demo
 
 Moves the end effector on a circular trajectory and displays an animation of the trajectory. Uses inverse kinematics to calculate joint 
-positions at each time step. Use option `--sinusoid` when running `./build/demo`.
+positions at each time step. Use option `--circle` when running `./build/demo`.
 
 ### Examples from RRT demo
 
